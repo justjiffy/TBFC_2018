@@ -1,14 +1,25 @@
 import React from 'react';
 
+import Navigation from 'react-toolbox/lib/navigation';
+
+const actions = [
+  { label: "Home" },
+  { label: "Event Info" },
+  { label: "History" },
+  { label: "Gallery" },
+  { label: "Contestants" },
+  { label: "Vendors" },
+  { label: "Volunteers" },
+  { label: "Supporters" },
+  { label: "Store" },
+  { label: "Contact" }
+
+]
 export default class Nav extends React.Component {
   render() {
     return (
       <div>
-        <h1>NAVIGATION</h1>
-        <li>Home</li>
-        <li>Event Info</li>
-        <li>Tickets</li>
-        <li>Contestants</li>
+        <Navigation type='horizontal' actions={actions} />
       </div>
     )
   }
