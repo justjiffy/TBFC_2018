@@ -26,8 +26,9 @@ export default class Landing extends React.Component {
   render() {
     return (
       <div>
-        <h1>Always the 3rd Sunday in May {this.props.date}</h1>
-        <h2>It is {this.state.date.toDateString()}</h2>
+        <h1>LANDING PAGE</h1>
+        <h2>Always the 3rd Sunday in May {this.props.date}</h2>
+        <p>It is {this.state.date.toDateString()}</p>
       </div>
     );
   }
