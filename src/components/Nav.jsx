@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Navigation from 'react-toolbox/lib/navigation';
+import theme from './NavTheme.css';
+
 
 const actions = [
   { label: "Home" },
@@ -19,7 +21,7 @@ export default class Nav extends React.Component {
   render() {
     return (
       <div>
-        <Navigation type='horizontal' actions={actions} />
+        <Navigation className={theme.container} theme={theme} type='vertical' actions={actions} />
       </div>
     )
   }

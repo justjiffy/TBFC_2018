@@ -1,0 +1,13 @@
+.container {
+  max-width: 15rem;
+  float: left;
+}
+
+
+.button {
+  text-align: left;
+  width: 12rem;
+  border: 1px solid black;
+}
+
+
