@@ -3,5 +3,13 @@
 }
 
 .navPadding {
-  margin-left: 15rem;
+  border: 1px solid black;
+  padding: 0 10px;
+  width: 85%;
+  right: 0;
+  top: 0;
+}
+
+.hide {
+  display: none !important;
 }

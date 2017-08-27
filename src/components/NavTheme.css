@@ -1,12 +1,17 @@
 .container {
-  max-width: 15rem;
+  width: 100%;
+  min-width: 120px;
+  margin-left: 0 !important;
+  padding: 0 !important;
+  display: inline-block !important;
 }
 
 
 .button {
   text-align: left;
-  width: 12rem;
+  width: 100%;
   border: 1px solid black;
+  margin: 0.5rem 0 !important;
 }
 
 
